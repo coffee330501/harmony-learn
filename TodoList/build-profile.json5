@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\dell\\.ohos\\config\\auto_debug_TodoList_com.coffee.laboratory_70086000200148301.cer",
+          "storePassword": "0000001A75410C772583DD0FAC793C6FF98861E559F3E9B9F84D8734D9B8434DEFC473A7C06C443FF1F8",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001AB9ACD12839187F8EF19549A8262EE6A8E2E0F784F2E0051E4BB72406BEBE5EECE0C754EA142B",
+          "profile": "C:\\Users\\dell\\.ohos\\config\\auto_debug_TodoList_com.coffee.laboratory_70086000200148301.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\dell\\.ohos\\config\\auto_debug_TodoList_com.coffee.laboratory_70086000200148301.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
